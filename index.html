@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de pesca</title>
+
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/tanrax/FFNM@1.4.0/dist/ffnm.min.js" integrity="sha384-WsAoFj8H5Jl3+nG7ON5XXiozrADpSLshx/XdN7xu2GUVkJEZB5C3AGrFtdi6tARh" crossorigin="anonymous"></script>
+
+
+    <script>
+        AOS.init();
+      </script>
+
+</head>
+<body>
+    <header class="header">
+        <!-- Header responsive -->
+
+        <a href="#" class="header__logo"><img class="header__logo" src="img/logo-.png" alt="Logo"></a>
+        <nav>
+            <ul>
+                <nav class="nav">
+
+
+                    <button class="nav__cerrar" is-click="class:remove('active', '.nav')">
+                        <img class="nav__cerrar-img" src="img/boton-cerrar.png" alt="cerrar" >
+                    </button>
+
+
+
+
+                    <ul class="nav__ul">
+                        <li class="nav__li">
+                            <a is-click="class:remove('active', '.nav')" href="#tipos-pesca" class="nav__link">Tipos de pesca</a>
+                        </li>
+
+                        <li class="nav__li">
+                            <a is-click="class:remove('active', '.nav')" href="#lugares-pesca" class="nav__link">Lugares de pesca</a>
+                        </li>
+                        <li class="nav__li">
+                            <a is-click="class:remove('active', '.nav')" href="#fauna-marina" class="nav__link">Fauna marina (peces)</a>
+                        </li>
+                        <li class="nav__li">
+                            <a is-click="class:remove('active', '.nav')" href="#redes-sociales" class="nav__link">Redes sociales</a>
+                        </li>
+                    </ul>
+                </nav>
+            </ul>
+        </nav>
+
+        <button class="header__abrir-menu" is-click="class:add('active', '.nav')">
+            <img class="header__abrir-icono" src="img/bars-solid.png" alt="boton abrir menu">
+        </button>
+
+        <!-- Final Header responsive -->
+
+
+
+
+    </header>
+    <main>
+        <section class="landing">
+           <div class="container">
+               <h1 class="landing__titulo">Blog de Pesca Marítima</h1>
+               <p class="landing__texto">El concepto de pesca marítima se utiliza para referirse a las actividades pesqueras realizadas y realizadas en agua salada, porque se realiza en el mar.
+               </p>
+               <p>
+                   <img class="pez" src="img/pez.jpg" alt="Pez">
+
+               </p>
+           </div>
+        </section>
+
+        <!-- TIPOS PESCA -->
+
+        <section  id="tipos-pesca" class="tipos">
+            <div class="container">
+                <h2 class="tipos__titulo">Tipos de pesca</h2>
+                <h3 class="tipos__titulo">(Costa)</h3>
+                <h4 class="tipos__titulo">(Los más practicados y más populares)</h4>
+
+
+                <h3 class="tipos__titulo"><strong class="strong">Pesca al jigging</strong></h3>
+                <p class="tipos__texto">El jigging consiste en arrojar el cebo artificial libremente sobre el fondo marino y restaurarlo a un ritmo constante mediante el movimiento del hilo y la caña de pescar. Esto simula la trayectoria de un pez pequeño hacia la superficie y se convierte en una atracción para capturar peces grandes.
+                </p>
+                <p class="tipos__texto">
+                    Hay dos tipos de abrazaderas: duras y blandas. El accesorio blando consta de una gran cabeza de plomo y un simple gancho a través del cual pasa un pequeño cuerpo de silicona. Proporcionan un movimiento realista y son muy efectivos para los peces que comen lentamente. Sin embargo, no funcionan bien en la parte inferior, caen lentamente y muestran una gran resistencia a la corriente. Por otro lado, los accesorios duros son tan largos o cortos como las hojas y, a diferencia de los accesorios blandos, caen rápidamente y brindan excelentes resultados en profundidad. Dependiendo de la distribución del peso en la zona trasera o central y la naturaleza asimétrica de su perfil, capturarán mejor uno u otro pez.
+                </p>
+                <div>
+
+                    <img class="img__jigging" src="img/jigging.jpg" alt="Jigging">
+
+                </div>
+
+
+                <h3 class="tipos__titulo"><strong class="strong">Spinning mar</strong></h3>
+                <p class="tipos__texto">La práctica del spinning de mar es una de las modalidades de pesca deportiva que se está poniendo cada vez más de moda, ya sea desde tierra o desde embarcación. Como hemos dicho consiste básicamente en lanzar un señuelo e ir recogiendo, mediante un movimiento atractivo hacia la muestra, para que sea atacado por el depredador.
+                </p>
+                <p class="tipos__texto">
+                    Tendrás que coger el cebo artificial con un pequeño toque, de esta manera intentar que el pez trabaje en forma de zigzag y produzca un efecto de vibración, como un insecto o una rana intentando atacar al pez que queremos pescar. El dominio de las técnicas de pesca con hilado y el uso de materiales de pesca adecuados, se puede decir que el hilado nunca capturará especies de caza como besugo, peces y truchas. Dependiendo de la potencia del equipo de pesca que use mientras gira, puede usar cebos artificiales en la superficie, en el agua o en las profundidades. Hemos visto cómo los cebos artificiales imitan a los peces pequeños del entorno que los rodea, porque son otro alimento en la dieta de los peces cazadores.
+                </p>
+
+
+                <img  class="img__spinning" src="img/spinning.jpg" alt="Spinning">
+
+
+
+
+                <h3 class="tipos__titulo"><strong class="strong">Surfcasting</strong></h3>
+                <p class="tipos__texto">El surfcasting es una modalidad de pesca deportiva o de afición, consistente en la pesca con caña de pescar, que se realiza desde la orilla de la playa. Es una forma de pesca muy conocida y relajante, excepto cuando es de competición.</p>
+
+                <p class="tipos__texto">
+                    Instruir los escenarios adecuados es muy simple: cualquier arenal, especialmente aquellos con un área limitada, no es necesario que tenga montañas, arrecifes y bajíos alternando con lenguas de arena. Estas playas habituales se independizan de otras zonas por separación, pasando gradualmente de arena pura a bahía pedregosa o una de las típicas cantos rodados o cantos rodados, pero esto no descarta la posibilidad de pescar grandes doradas de la costa. La playa de un kilómetro de largo, estos peces visitan en su viaje nutricional.
+                </p>
+
+
+                <img class="img__surfcasting" src="img/surfcasting.jpg" alt="Surfcasting">
+
+
+
+                <h3 class="tipos__titulo"><strong class="strong">Rockfishing</strong></h3>
+                <p class="tipos__texto">El rockfishing, o spinning ultraligero, es el nombre que se le da a la pesca con señuelos artificiales de muy pocos gramos. Por ello, el objetivo del rockfishing es capturar peces de pequeño tamaño con equipos muy ligeros, de forma que se disfrute al máximo cada captura.</p>
+
+                <p class="tipos__texto">
+                    El rockfishing es una modalidad de pesca deportiva dedicada a pequeñas presas que habitan en desembocaduras, acantilados, fondos rocosos y espigones portuarios. Esta técnica se practica con señuelos pequeños y equipos muy ligeros. Las especies que se pueden capturar mediante esta técnica son bastante amplias, aunque varían según la zona. El equipo y los señuelos que se emplean en esta técnica están destinados a peces pequeños, aunque en muchas ocasiones se pueden capturar peces inmaduros, por eso debemos respetar ante todo las tallas mínimas.
+                </p>
+
+
+
+                <img class="img__rockfishing" src="img/rockfishing.jpg" alt="Rockfishing">
+
+            </div>
+        </section>
+
+                <!-- FIN TIPOS PESCA -->
+
+                <!-- LUGARES DE PESCA -->
+
+
+
+        <section id="lugares-pesca" class="lugares">
+           <div class="container">
+               <h2 class="lugares__titulo">Lugares de pesca</h2>
+
+               <h3 class="lugares__titulo"><strong class="strong">Pesca al jigging</strong></h3>
+               <p class="lugares__texto">
+                   En esencia, el jigging desde la orilla implica el lanzamiento de señuelos pesados, o jigs, en varios lugares submarinos profundos cerca de la costa. Los mejores lugares para este tipo de pesca son:
+               </p>
+               <p class="lugares__texto">
+
+               <div class="container-tabla">
+                   <ul class="lugares__tabla">
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Acantilados rocosos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Muelles</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Embarcaderos</strong></li>
+                   </ul>
+               </div>
+
+               <h3 class="tipos__titulo"><strong class="strong">Spinning mar</strong></h3>
+               <p class="lugares__texto">
+                   El mar es tan grande y hay tantos posibles lugares donde tirar la caña que nos pueden asaltar dudas muy razonables, pues si nos ponemos a pescar en el primer sitio al que llegamos, es muy posible que nos volvamos a casa sin capturas, deberíamos probar en:
+               </p>
+               <p class="lugares__texto">
+
+               <div class="container-tabla">
+                   <ul class="lugares__tabla">
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Los grandes arenales</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Espigón playero</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Los puertos</strong></li>
+                   </ul>
+               </div>
+
+               <h3 class="tipos__titulo"><strong class="strong">Surfcasting</strong></h3>
+               <p class="lugares__texto">
+                   Quizás es unos de los mejores lugares para pescar buenos y numerosos peces son:
+               </p>
+               <p class="lugares__texto">
+
+               <div class="container-tabla">
+                   <ul class="lugares__tabla">
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Arenales con fondos rocosos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Arenales de fondos planos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Rías</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Desembocaduras</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Lagunas costeras</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Arenales de fondos planos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Grandes escolleras</strong></li>
+
+                   </ul>
+               </div>
+
+               <h3 class="tipos__titulo"><strong class="strong">Rockfishing</strong></h3>
+               <p class="lugares__texto">
+                   Como puedes imaginar, considerando la gran variedad de capturas, la zona de pesca apta para cualquier persona para la pesca en roca puede ser cualquiera:
+               </p>
+               <p class="lugares__texto">
+
+               <div class="container-tabla">
+                   <ul class="lugares__tabla">
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Diques y escolleras de puertos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Playas con fondos arenosos o mixtos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Playas con fondos rocosos</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Roquedos y pequeños acantilados</strong></li>
+                       <li class="lugares__tabla__fila"><strong class="strong__two">Canales de agua salda o dulce (salientes al mar)</strong></li>
+
+                   </ul>
+               </div>
+
+
+           </div>
+        </section>
+
+        <!-- FIN LUGARES DE PESCA -->
+
+
+
+        <!-- FAUNA MARINA -->
+
+        <section id="fauna-marina" class="fauna">
+            <div class="container">
+                <h2 class="fauna__titulo">Fauna Marina</h2>
+                <h3 class="fauna__titulo">(peces)</h3>
+
+                <h3 class="fauna__titulo"><strong class="strong">Especies de peces costa del Mediterráneo</strong></h3>
+                <p class="fauna__texto">
+                    Dentro de los peces <strong class="strong">más valorados</strong> del mediterráneo están:
+                </p>
+                <p class="fauna__texto">
+
+                <div class="container-tabla">
+                    <ul class="fauna__tabla">
+                        <li class="fauna__tabla__fila"><strong class="strong__two">El salmonete</strong></li>
+                        <img class="img__fauna" src="img/salmonete.jpeg" alt="Salmonete">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">El lenguado</strong></li>
+                        <img class="img__fauna" src="img/lenguado.jpg" alt="Lenguado">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">La merluza</strong></li>
+                        <img class="img__fauna" src="img/merluza.jpg" alt="Merluza">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">El dentex (o déntol)</strong></li>
+                        <img class="img__fauna" src="img/dentol.jpeg" alt="Dentex-Déntol">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">El Mero</strong></li>
+                        <img class="img__fauna" src="img/mero.jpg" alt="Mero">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">La dorada</strong></li>
+
+                        <img class="img__fauna" src="img/dorada.jpg" alt="Dorada">
+                    </ul>
+                </div>
+
+                <h3 class="fauna__titulo"><strong class="strong">Especies de peces costa del Mediterráneo</strong></h3>
+
+                <p class="fauna__texto">
+                Como <strong class="strong">pescado muy común</strong> encontramos la familia de los diplodus que son una especie peciforme conformada por sargos de todo tipo:
+                </p>
+
+                <div class="container-tabla">
+                    <ul class="fauna__tabla">
+                        <li class="fauna__tabla__fila"><strong class="strong__two">Sargo real</strong></li>
+                        <img class="img__fauna" src="img/sargo-real.jpg" alt="Sargo-real">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">Sargo común</strong></li>
+                        <img class="img__fauna" src="img/sargo-comun.jpg" alt="Sargo-comun">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">Mojarra</strong></li>
+                        <img class="img__fauna" src="img/mojarra.png" alt="Mojarra">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">Raspallón</strong></li>
+                        <img class="img__fauna" src="img/raspallon.jpg" alt="Raspallón">
+
+                        <li class="fauna__tabla__fila"><strong class="strong__two">Sargo picudo</strong></li>
+                        <img class="img__fauna" src="img/sargo-picudo.jpg" alt="Sargo-picudo">
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FIN FAUNA MARINA -->
+
+        <!-- CONTACTO REDES SOCIALES -->
+
+
+        <section id="redes-sociales" class="contact">
+            <div class="container">
+                <h2 class="contact__titulo">Contacto</h2>
+                <p class="contact__texto">Si quieres saber más o aprender mucho más sobre la forma de vida de los peces, o solamente necesites contactarnos, <strong class="strong">síguenos en nuestras redes sociales</strong> </p>
+                <p class="contact__texto">
+                <div class="contact-fila">
+                <div>
+                    <p>
+                        <img class="contact__redes" src="img/twitter.png" alt="Twitter">
+                    </p>
+                        <a href="#" class="button">
+
+                            <strong class="strong__two">Twitter</strong>
+                        </a>
+                </div>
+                <div>
+                    <p>
+                        <img class="contact__redes" src="img/github.png" alt="Github">
+                    </p>
+                        <a href="#" class="button">
+
+                            <strong class="strong__two">Github</strong>
+                        </a>
+                </div>
+            <div>
+                    <p>
+                        <img class="contact__redes" src="img/facebook.png" alt="Facebook">
+                    </p>
+                        <a href="#" class="button">
+
+                            <strong class="strong__two">Facebook</strong>
+                        </a>
+                    </p>
+            </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+        <!-- FIN CONTACTO REDES SOCIALES -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__texto">
+                2020© Blog de pesca derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
