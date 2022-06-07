@@ -1,0 +1,380 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: initial;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
+
+
+.strong {
+    color: deepskyblue;
+}
+
+.strong__two{
+    color: greenyellow;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+.button {
+    border: 1px solid black;
+    color: white;
+    padding: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+
+
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header__logo{
+    width: 75px;
+}
+
+
+.nav {
+    margin-left: auto;
+}
+
+
+.nav__ul {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav__link {
+    display: block;
+    padding: 1rem;
+    transition: .5s;
+}
+
+.nav__cerrar{
+    display: none;
+    width: 2rem;
+    margin-top: 3rem;
+}
+
+
+.header__abrir-menu{
+    display: none;
+}
+
+.header__abrir-icono{
+    width: 2rem;
+}
+
+
+
+/* Fin header */
+
+/* Inicio secciones */
+
+main {
+    text-align: center;
+}
+
+.landing {
+    background-image: url(../img/imagen-pesca-principal.jpg);
+    background-size: 1400px;
+    background-position: center center;
+    padding: 5rem 0;
+}
+
+.landing__titulo {
+    font-size: 4rem;
+
+}
+
+.landing__texto {
+    font-size: 1.5rem;
+}
+
+
+.pez{
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: -4rem;
+}
+
+
+.tipos {
+    padding: 5rem 0;
+}
+
+
+
+.img__jigging{
+    width: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.img__spinning{
+    width: 25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.img__surfcasting{
+    width: 23rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.img__rockfishing{
+    width: 20rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.lugares {
+    padding: 5rem 0;
+    background-color: black;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.lugares__tabla{
+    margin-left: -2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.lugares__texto {
+    margin-bottom: 3rem;
+}
+
+
+
+
+.fauna{
+    padding: 5rem 0;
+}
+
+.fauna__tabla{
+    list-style: none;
+    padding: 0;
+}
+
+.img__fauna{
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+/* Fin secciones */
+
+
+/* Pagina contacto redes sociales */
+
+
+.contact {
+    padding: 5rem 0;
+}
+
+.contact__texto {
+    margin-bottom: 3rem;
+}
+
+.contact .button {
+    margin: 0 .5rem;
+}
+
+
+.contact__social {
+    width: 1rem;
+}
+
+.contact__redes{
+    margin-top: 3rem;
+    width: 5rem;
+}
+
+.contact-fila{
+    display: flex;
+    position: center;
+    grid-gap: 17rem;
+}
+
+
+
+/* Fin Pagina contacto redes sociales */
+
+
+/* Footer */
+.footer {
+    padding: 2rem 0;
+}
+
+.footer__texto {
+   text-align: center;
+}
+/* End Footer */
+
+
+
+@media all and (max-width: 600px) {
+
+
+    .nav{
+        position: fixed;
+        transition: 1s;
+        width: 100vw;
+        top: 0;
+        left: -100vw;
+        bottom: 0;
+        background: rgba(51,51,51, 0.94);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .nav.active{
+        opacity: 1;
+        left: 0;
+    }
+
+    .nav__ul{
+        flex-direction: column;
+    }
+
+
+    .nav__link{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .nav__cerrar{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    .nav__cerrar-img{
+        width: 2rem;
+    }
+
+
+    .header__abrir-menu, .nav__cerrar {
+        display: block;
+    }
+    .header__abrir-icono {
+        width: 2rem;
+    }
+
+
+    .container {
+        margin: 0 1rem;
+    }
+
+    .landing{
+        background-image: url(../img/imagen-pesca-principal.jpg);
+        background-size: 1000px;
+        background-position: center center;
+        padding: 5rem 0;
+    }
+
+
+
+    .landing__titulo {
+        font-size: 2rem;
+    }
+
+    .landing__texto {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .pez{
+        width: 17rem;
+    }
+
+    .img__jigging{
+        width: 16rem;
+    }
+
+    .img__spinning{
+        width: 16rem;
+    }
+
+    .img__surfcasting{
+        width: 16rem;
+    }
+
+    .img__rockfishing{
+        width: 16rem;
+    }
+
+    .img__fauna{
+        width: 12rem;
+    }
+
+
+    .contact__texto .button {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .contact-fila{
+        display: block;
+        position: center;
+        grid-gap: 4rem;
+    }
+
+}
