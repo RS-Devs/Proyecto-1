@@ -15,6 +15,16 @@ Este es un proyecto de un blog de pesca con un diseño responsive y moderno. En 
 - Integración con redes sociales relacionadas con la pesca
 
 
+# Uso
+
+Para visualizar la página se puede acceder directamente al siguiente enlace:
+
+- https://pagina-web-de-pesca.netlify.app/
+
+También se puede clonar el repositorio de GitHub y abrir el archivo index.html en cualquier navegador web:
+
+git clone https://github.com/RS-Devs/Proyecto-1.git
+
 
 # Tecnologías utilizadas
 
@@ -27,12 +37,6 @@ Este es un proyecto de un blog de pesca con un diseño responsive y moderno. En 
 - AOS (Animate on Scroll) - biblioteca para animaciones en scroll
 
 
-# Uso
+# Creado por
 
-Para visualizar la página se puede acceder directamente al siguiente enlace:
-
-- https://pagina-web-de-pesca.netlify.app/
-
-También se puede clonar el repositorio de GitHub y abrir el archivo index.html en cualquier navegador web:
-
-git clone https://github.com/RS-Devs/Proyecto-1.git
+- RS-DEVS
